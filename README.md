@@ -1,4 +1,4 @@
-# KBilliards
+# Four-ball Billiards (Three JS)
 
 3D four-ball carom billiards simulator with real-time physics, AI opponent, and a headless RL API.
 
@@ -53,8 +53,8 @@ Layers 1 & 2 have no rendering dependency, enabling headless RL training.
 
 ```bash
 # Clone
-git clone https://github.com/skoo1/KBilliards.git
-cd KBilliards
+git clone https://github.com/skoo1/Four-Ball_Billiards_ThreeJS.git
+cd Four-Ball_Billiards_ThreeJS
 
 # Virtual environment (recommended)
 python -m venv venv
@@ -137,7 +137,7 @@ See [MANUAL_KR.md](MANUAL_KR.md) or [MANUAL_ENG.md](MANUAL_ENG.md) for the full 
 ## Project Structure
 
 ```
-KBilliards/
+Four-Ball_Billiards_ThreeJS/
 ├── physics.py            # Layer 1 — physics engine
 ├── controller.py         # Layer 2 — game logic, AI, RL API
 ├── server.py             # Layer 3 — FastAPI WebSocket server
@@ -162,8 +162,6 @@ KBilliards/
 - FastAPI + Uvicorn (web server)
 - NumPy (physics computations)
 - Three.js (loaded via CDN, no npm required)
-
-Desktop client (`main.py`) additionally requires **Ursina**, **Pillow**, and **Panda3D**.
 
 ---
 
