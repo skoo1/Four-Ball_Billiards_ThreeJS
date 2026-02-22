@@ -7,6 +7,10 @@ Built with **FastAPI** + **Three.js** (WebSocket at ~60 fps).
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Billiards Simulator Screenshot](images/img1.png)
+
+![Billiards Simulator Command Mode Screenshot](images/img2.png)
+
 ---
 
 ## Features
